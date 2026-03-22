@@ -69,3 +69,30 @@ It allows users to manage books in a library system with CRUD operations and adv
 ```bash
 git clone https://github.com/AS-Bhoomika/Library-Book-Management-API-Using-FASTAPI.git
 ```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Run the server:
+```bash
+uvicorn main:app --reload
+```
+4. Open Swagger UI:
+```bash
+http://127.0.0.1:8000/
+```
+
+# Learning Outcomes
+
+* Built REST APIs using FastAPI
+* Implemented CRUD operations
+* used Pydantic for validation
+* Learned API testing using Swagger
+* Implemented search, sorting, pagination
+
+
+## GitHub Repository:
+
+```bash
+https://github.com/AS-Bhoomika/Library-Book-Management-API-Using-FASTAPI/
+```
